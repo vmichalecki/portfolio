@@ -1,0 +1,30 @@
+* {
+    color: hotpink;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* element styles */
+html {
+    background-color: pink;
+}
+
+/* classes */
+.sticky {
+    position: sticky;
+}
+
+.wide-head {
+    width: 100%;
+}
+
+.bgc-gray {
+    background-color: gray;
+}
+header {
+    position: sticky;
+    width: 100%;
+    background-color: gray;
+}
+
+body, h1 {
+    margin: 0;
+}
