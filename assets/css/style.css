@@ -1,30 +1,83 @@
 * {
     color: hotpink;
     font-family: 'Courier New', Courier, monospace;
+    align-content: center;
 }
 /* element styles */
 html {
     background-color: pink;
 }
 
-/* classes */
-.sticky {
-    position: sticky;
+section {
+    display: block;
 }
 
-.wide-head {
-    width: 100%;
+div {
+    display: block;
 }
 
-.bgc-gray {
-    background-color: gray;
+img {
+
 }
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+}
+
+.yellow {
+    color: #ffa726
+}
+
 header {
-    position: sticky;
     width: 100%;
-    background-color: gray;
+    background-color: hotpink;
+    position: sticky;
+    top: 0;
+    display: block;
 }
 
 body, h1 {
     margin: 0;
 }
+
+.dark-light-gradient {
+    background: linear-gradient(hotpink, pink);
+  }
+
+img {
+    height: 350px;
+    margin: auto
+}
+
+.header-pad {
+    padding: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.container {
+    width: 365px;
+    height: 365px;
+    margin: 20px auto;
+}
+
+.gradient-border {
+    border: linear-gradient(#ffa726 50%, transparent 50%;);
+    border: 5px solid #dadada;
+    border-radius: 16px;
+
+}
+
+.center {
+    text-align: center;
+}
+
