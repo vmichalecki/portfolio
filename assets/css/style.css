@@ -1,18 +1,19 @@
 * {
-    color: hotpink;
+    color: #ff1d8e;
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     margin: 0;
     text-align: center;
 }
-/* element styles */
-html {
+
+/* html {
     background-color: pink;
-}
+} */
 
 header {
     width: 100%;
-    background-color: hotpink;
+    height: 200px;
+    /* background-color: hotpink; */
     position: sticky;
     top: 0;
 }
@@ -21,14 +22,14 @@ body, h1 {
     margin: 0;
 }
 
-.dark-light-gradient {
-    background: linear-gradient(hotpink, pink);
-  }
+h1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-/* img {
-    height: 400px;
-    margin: auto;
-} */
+.dark-light-gradient {
+    background: linear-gradient (hotpink 80%, pink 30%);
+  }
 
 h1, h2 {
     text-align: center;
@@ -36,6 +37,7 @@ h1, h2 {
 }
 
 .container {
+    padding-top: 100px;
     display: block;
     width: 400px;
     margin-left: auto;
@@ -47,3 +49,20 @@ h1, h2 {
     background:linear-gradient(to bottom,#ffa726 50%,white 50%) border-box;
   }
 
+html,body{margin:0; padding:0}
+
+.fadedScroller {
+      overflow: auto;
+      position: sticky;
+
+  }
+  .fadedScroller:after {
+
+  content: '';
+  top: 0px;
+  left: 0;
+  height: 200px;
+  right: 0;
+  background: linear-gradient(to top, transparent 0%, hotpink 100%);
+  position: fixed;
+  }
