@@ -16,6 +16,8 @@ header {
     /* background-color: hotpink; */
     position: sticky;
     top: 0;
+    z-index: 1;
+    background-image: linear-gradient(pink, hotpink);
 }
 
 body, h1 {
@@ -28,7 +30,7 @@ h1 {
 }
 
 .dark-light-gradient {
-    background: linear-gradient (hotpink 80%, pink 30%);
+    background: linear-gradient(hotpink 80%, pink 30%);
   }
 
 h1, h2 {
