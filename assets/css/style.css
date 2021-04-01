@@ -71,5 +71,6 @@ footer {
 
 .gradient-border {
     border:25px solid transparent;
-    background:linear-gradient(to bottom,#ffa726 50%,white 50%) border-box;
+    background:linear-gradient(to bottom,white 50%,#ffa726 50%) border-box;
 }
+
